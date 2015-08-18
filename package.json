@@ -1,5 +1,5 @@
 {
-  "name": "rlux-standard-action",
+  "name": "redux-standard-action",
   "version": "0.0.0",
   "description": "A human-friendly standard for Redux action objects",
   "main": "lib/index.js",
