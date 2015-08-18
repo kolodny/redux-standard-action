@@ -94,3 +94,20 @@ import { isRSA } from 'redux-standard-action';
 ### `isFSA(action)`
 
 Returns true if `action` is FSA compliant.
+
+
+### Redux Middleware:
+
+```js
+const warnRSAMiddleware = store => next => action => {
+  if (!isRSA(action)) {
+    console.warn('invalid RSA', action);
+  }
+  return next(action);
+};
+
+const createStoreWithMiddleware = applyMiddleware(
+  warnRSAMiddleware
+)(createStore);
+
+```
