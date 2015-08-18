@@ -26,5 +26,13 @@
   },
   "dependencies": {
     "lodash.isplainobject": "^3.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/redux-standard-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/redux-standard-action/issues"
+  },
+  "homepage": "https://github.com/kolodny/redux-standard-action#readme"
 }
