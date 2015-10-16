@@ -91,9 +91,9 @@ The module `redux-standard-action` is available on npm. It exports a few utlity 
 ```js
 import { isRSA } from 'redux-standard-action';
 ```
-### `isFSA(action)`
+### `isRSA(action)`
 
-Returns true if `action` is FSA compliant.
+Returns true if `action` is RSA compliant.
 
 
 ### Redux Middleware:
